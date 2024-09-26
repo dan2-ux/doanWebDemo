@@ -1,0 +1,61 @@
+.add{
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-60%);
+    background-color: hsl(0, 0%, 30%);
+    font-size: 20px;
+}
+
+.add h1{
+    text-align: center;
+    color: white;
+}
+.add .toanbo{
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.add .toanbo div{
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.add .toanbo .line1 label{
+    margin-right: 60px
+}
+.add .toanbo .line2 input, .add .toanbo .line3 input,.add .toanbo .line4 input{
+    width: 80%;
+    padding:10px;
+    font-size: 15px;
+}
+.add .toanbo .line3 input{
+    margin-left: 13px;
+}
+
+.add .toanbo .line5{
+    text-align: center;
+}
+.add .toanbo #cuabutton{
+    text-align: center;
+}
+.add .toanbo  button{
+    padding: 12px;
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.add .toanbo button:hover{
+    transform: scale(105%,105%);
+    background-color: hsl(0, 0%, 90%);
+}
+.add .toanbo button:active{
+    background-color: hsl(0, 0%, 80%);
+    transform: scale(105%,125%);
+}

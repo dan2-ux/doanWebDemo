@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 17%);
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.container a{
+    text-decoration: none;
+    color:white;
+    margin:5px;
+    cursor: pointer;
+    padding: 20px;
+    background-color: hsl(0, 0%, 30%);
+    border-radius: 100px;
+}
+.container a:hover{
+    transform: translate(10%,0);
+    background-color: hsl(0, 0%, 40%);
+}
+.container a:active{
+    transform: scale(105%,105%);
+    background-color: hsl(0, 0%, 50%);
+}
+
+h1{
+    color:white;
+}
